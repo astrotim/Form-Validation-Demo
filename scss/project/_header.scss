@@ -5,9 +5,11 @@
 .site-header {
   background-color: $md-indigo-500;
   border-top: 10px solid $md-indigo-700;
+  padding-bottom: 20px;
 
   h1 {
     @include font-size(24px);
     color: white;
+    margin-bottom: 0;
   }
 }

@@ -12,7 +12,7 @@
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-<link rel="stylesheet" href="style.dev.css">
+<link rel="stylesheet" href="style.css">
 
 <!--[if lt IE 9]>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>

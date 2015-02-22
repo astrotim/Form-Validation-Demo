@@ -19,6 +19,7 @@ $gray:                  #aaa;
 $black:                 #111;
 
 
+
 /**
  * greys
  */
@@ -26,8 +27,8 @@ $grey-vdark:            #222;
 $grey-dark:             #808080;
 $grey-medium:           #ccc;
 $grey:                  $grey-medium;
-$grey-light:            #e8e8e8;
-$grey-vlight:           #fbfbfb;
+$grey-light:            #eee;
+$grey-vlight:           #f3f3f3;
 
 
 /**
@@ -46,7 +47,7 @@ $sans-serif:            "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetic
 /**
  * Bootstrap scaffolding variables
  */
-$font-size-base:        16px;
+$font-size-base:        14px;
 $font-family-base:      $sans-serif;
 $line-height-base:      1.42857;
 $text-color:            $grey-vdark;

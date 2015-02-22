@@ -105,8 +105,9 @@ module.exports = function(grunt) {
       },
       basic: {
         src: [
-          'js/modernizr.min.js',
-          'js/project.js'
+          // 'js/modernizr.min.js',
+          'js/jquery.formance.js',
+          'js/form-validation.js'
         ],
         dest: 'js/concat.js'
       }
