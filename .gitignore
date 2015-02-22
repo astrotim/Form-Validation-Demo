@@ -1,0 +1,13 @@
+# file types
+*.csv
+*.gz
+*.lnk
+*.sublime-workspace
+
+# files
+_CMD.bat
+_GIT.bat
+sftp-config.json
+
+# directories
+node_modules/
