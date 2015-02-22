@@ -1,0 +1,16 @@
+/**
+ * Footer styles
+ */
+
+.site-footer {
+  background-color: $md-green-500;
+  border-bottom: 3px solid $md-green-700;
+
+  p {
+    color: white;
+    margin-bottom: 0;
+    padding: 16px 0 12px;
+    @include font-size(12px);
+    text-align: center;
+  }
+}

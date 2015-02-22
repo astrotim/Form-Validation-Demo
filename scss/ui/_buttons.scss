@@ -1,0 +1,72 @@
+/**
+ * Button styles
+ *
+ */
+
+a.button {
+  text-decoration: none;
+  outline: 0;
+}
+
+.button {
+  background-color: $button-color;
+  padding: 7px 14px 6px;
+  border: none;
+  border-bottom: 2px solid $button-color-border;
+  color: white;
+  font-family: $button-font;
+  @include font-size(14px);
+  line-height: 16px;
+  display: inline-block;
+  transition: background .2s ease;
+  -webkit-appearance: none;
+  border-radius: 3px;
+
+  &:hover,
+  &:active {
+    color: white;
+    background-color: $button-color-hover;
+    border-bottom-color: $button-color-hover;
+  }
+
+  &:active {
+    transition: transformY(1px);
+  }
+
+  .btn-group & {
+    font-family: $button-font;
+    @include font-size(13px);
+  }
+
+  .alert & {
+    color: white;
+  }
+}
+
+
+@mixin button-reset {
+  background: none;
+  padding: 0;
+  border: none;
+  transition: none;
+
+  &:active {
+    margin: 0;
+    top: auto;
+  }
+}
+
+.btn-white {
+  color: #333;
+  background-color: #f9f9f9;
+  border: 1px solid #e9e9e9;
+
+  &:hover,
+  &:active {
+    background: #eee;
+  }
+}
+
+.btn-large {
+  padding: 10px 20px 9px;
+}

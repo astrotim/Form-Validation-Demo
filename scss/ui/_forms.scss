@@ -1,0 +1,74 @@
+/**
+ * Form styles
+ *
+ */
+
+.form-control {
+  background-color: #fafafa;
+  border: 1px solid #d0d0d0;
+  border-radius: 2px;
+  box-shadow: none;
+  height: 32px;
+  @include font-size(14px);
+}
+
+.form-group {
+
+  label,
+  select {
+    display: block;
+    color: #808080;
+    @include font-size(14px);
+    font-weight: normal;
+  }
+
+  select {
+    width: 100%;
+    background-color: #fafafa;
+    border: 1px solid #d0d0d0;
+    height: 32px;
+    padding-left: 8px;
+  }
+}
+
+
+.has-error.form-group {
+  label {
+    color: $state-danger-text;
+  }
+}
+.has-warning.form-group {
+  label {
+    color: $state-warning-text;
+  }
+}
+.has-success.form-group {
+  label {
+    color: $state-success-text;
+  }
+}
+
+.has-error {
+  .input-icon-wrapper {
+    position: relative;
+
+    // &:after {
+    //   @include font-awesome($fa-var-times-circle, 25px, $state-danger-text);
+    //   top: 0;
+    //   right: 6px;
+    // }
+  }
+}
+
+.has-success {
+  .input-icon-wrapper {
+    position: relative;
+
+    // &:after {
+    //   @include font-awesome($fa-var-check-circle, 25px, $state-success-text);
+    //   top: 0;
+    //   right: 6px;
+    // }
+  }
+}
+

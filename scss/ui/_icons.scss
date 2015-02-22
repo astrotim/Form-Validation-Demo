@@ -1,0 +1,23 @@
+/**
+ * Icon styles
+ *
+ */
+
+.has-error {
+  position: relative;
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    margin-top: -10px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background-image: url("images/icons.svg");
+    background-size: 20px 100px;
+    background-position: 0 -20px;
+  }
+}
